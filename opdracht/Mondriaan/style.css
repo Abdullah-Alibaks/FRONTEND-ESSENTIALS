@@ -104,11 +104,38 @@ div{
     width: 100%;
 }
 
+    #rechts-rij-twee-links{
+        height: 100%;
+        width: 80%;
+    }
+    #recjts-rij-twee-rechts{
+        height: 100%;
+        width: 10%;
+    }
+
 /* Rechtskant derde rij */
 #rechts-rij-drie{
     height: 22%;
     width: 100%;
+    
 }
+    #rechts-rij-drie-links1{
+        height: 100%;
+        width: 10%;
+    }
+    #rechts-rij-drie-links2{
+        height:100%;
+        width: 10%%;
+    }
+    #rechts-rij-drie-drie{
+        width: 4%;
+        height: 1px;
+    }
+    #rechts-rij-drie-vier{
+        width: 20%;
+        height: 100%;
+        right: 1%;
+    }
 
 /* Rechtskant vierde rij */
 #rechts-rij-vier{
