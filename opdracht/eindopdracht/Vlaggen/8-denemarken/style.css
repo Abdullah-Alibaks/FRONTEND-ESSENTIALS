@@ -1,0 +1,30 @@
+/* Hier hoef je niks mee te doen */
+*{
+    font-size:0;
+}
+
+#container{
+    width: 900px;
+    height: 600px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+/* Hieronder kun je gaan editen */
+
+
+#line{
+    background: white;
+    height: 70px;
+    width: 900px;
+    top: 40%;
+    position: absolute;
+}
+#line2{
+    position: absolute;
+    top: 36.5%;
+    background-color: white;
+    height: 70px;
+    width: 600px;
+    transform: rotateZ(90deg);
+}

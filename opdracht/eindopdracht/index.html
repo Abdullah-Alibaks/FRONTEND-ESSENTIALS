@@ -4,42 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <div class="container status">
-        
-    </div>
-    <div class="table">
-        <h2>Gebruiker</h2>
-        <table title="Gebruiker">
-            <thead>
-                <tr>
-                    <th>Naam</th>
-                    <th>Achternaam</th>
-                    <th>leeftijd</th>
-                    <th>E-mail</th>
-                    <th>Woonplaats</th>
-
-                </tr>
-            </thead>
-        </table>
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <div class="subnav">
+        <button class="subnavbtn">Vlaggen<i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+            <a href="Vlaggen/1-polen/index.html" target="_blank">Polen</a>
+            <a href="Vlaggen/2-nederland/index.html" target="_blank">Nederland</a>
+            <a href="Vlaggen/3-frankrijk/index.html" target="_blank">Frankrijk</a>
+            <a href="vlaggen/4-colombia/index.html" target="_blank">Colombia</a>
+            <a href="vlaggen/5-botswana/index.html" target="_blank">Botswana</a>
+            <a href="vlaggen/6-benin/index.html" target="_blank">Benin</a>
+            <a href="vlaggen/7-chili/index.html" target="_blank">Chili</a>
+            <a href="vlaggen/8-denemarken/index.html" target="_blank">Denemarken</a>
+            <a href="vlaggen/9-noorwegen/index.html" target="_blank">Noorwegen</a>
+            <a href="vlaggen/10-zwitserland/index.html" target="_blank">Zwitserland</a>
+            
+          </div>
+        </div> 
+    <a href="Mondriaan/index.html" target="_blank">Mondriaan</a>
+      </div>
+<div class="table">
+    <p id="naamGebruiker"></p>
+    <h4>Gebruiker:</h4>
+    <table title="Gebruiker">
+        <thead>
+            <tr>
+                <th>Naam</th>
+                <th>Achternaam</th>
+                <th>leeftijd</th>
+                <th>E-mail</th>
+                <th>Woonplaats</th>
+            </tr>
+            <tr id="naamTabel">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </thead>
+     </table>
         
      </div>
     </div>
-    <script>
-        
-        let persoon = {
-            voornaam : prompt("Wat is je naam?"),
-            achternaam : prompt("Wat is je achternaam?"),
-            leeftijd : prompt("Wat is je leeftijd?"),
-        };
-
-
-
-        
-        
-    </script>
+<script src="js/script.js"></script>
 </body>
 </html>
